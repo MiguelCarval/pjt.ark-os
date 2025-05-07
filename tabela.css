@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color:#f5f6fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #e0e0e0;
+    padding: 20px;
+}
+
+fieldset {
+    width: 100%;
+    max-width: 450px;
+    margin: 80px auto;
+    padding: 2rem;
+    border: none;
+    border-radius: 12px;
+    background-color:#f5f6fa;
+    box-shadow: 0 4px 15px rgb(126, 147, 168);
+    height: auto;
+    position: relative;
+    top: 60px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background-color:#314cc2;
+    color:black;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    position: relative;
+    top: 0.7rem;
+    font-size: 17px;
+}
+
+input[type="submit"]:hover {
+    background-color:rgb(37, 86, 136);
+    color:white; 
+    transform: scale(1.05); 
+}
+
+.nome3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:black;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+#tabela {
+    margin-top: 2rem;
+    padding: 8px;
+    color:black;
+    background-color:#d4d7e3;
+    position: relative;
+    left: 0.9rem;
+    border-radius: 5px;
+}
+
+
+.nome1 {
+    font-size: 1.5rem;
+    color:black;
+    text-align: center;
+    margin-bottom: 1rem;
+    position: relative;
+    left: 9.5rem;
+    top: 1rem;
+}
+
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+    border: 1px solid #444;
+    background-color:#d4d7e3;
+    color: black;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #3f5356;
+    box-shadow: 0 0 8px rgba(55, 76, 81, 0.6);
+}
+
+
+.nome2 {
+    font-size: 1.5rem;
+    color:black;
+    margin-top: 10px;
+    position: relative;
+    left: 8rem;
+    top: 1rem;
+}
+
+h1 {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.btn-home {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background: linear-gradient(45deg, #007bff, #0056b3);
+    color: white;
+    font-size: 16px;
+    font-family: sans-serif;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s, background 0.3s;
+    position: relative;
+    right:-1rem;
+    top: -31rem;
+  }
+
+  .btn-home:hover {
+    transform: translateY(-2px);
+    background: linear-gradient(45deg, #0056b3, #003d80);
+  }
+
