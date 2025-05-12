@@ -52,12 +52,12 @@ $conn->close();
   <link rel="stylesheet" href="tabela.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Ark-OS</title>
   <link rel="shortcut icon" href="img/ar.png" type="image/x-icon">
 </head>
 <body>
 
-<h1 style="font-size: 28px; font-weight: 700; color:rgb(37, 86, 136)">Arkmeds Dashboard</h1>
+<h1 style="font-size: 28px; font-weight: 700; color:rgb(37, 86, 136)">Ark-OS Dashboard</h1>
 
 <form action="" method="post" class="oficinas">
 <fieldset>

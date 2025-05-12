@@ -21,7 +21,7 @@ while ($row = $result->fetch_assoc()) {
 
 <main class="main">
     <div class="topbar">
-        <h1 style="font-size: 28px; font-weight: 700; color:rgb(37, 86, 136)">Arkmeds Dashboard</h1>
+        <h1 style="font-size: 28px; font-weight: 700; color:rgb(37, 86, 136)">Ark-OS Dashboard</h1>
         <div class="filters">
             <div><a href="<?= $BASE_URL ?>">Home</a></div>
             <div><a href="<?= $BASE_URL ?>\tabela.php">Inserir Dados</a></div>
